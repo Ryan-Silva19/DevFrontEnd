@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex</title>
+    <style>
+        .conteiner{
+            display: flex;
+            padding: 100px;
+            justify-content: space-between;
+            /* alinhando no centro ↓ do modelo row */
+            /* justify-content: center;
+            align-items: center;
+            height:100vh;*/
+            /* alinhando no centro ↓ do modelo column */
+            /* flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh; */
+        }
+        .red{background-color: red;}
+        .green{background-color: green;}
+        .blue{background-color: blue;}
+    </style>
+</head>
+
+<body>
+    <div class="conteiner">
+        <div class="red">red</div>
+        <div class="green">green</div>
+        <div class="blue">blue</div>
+    </div>
+</body>
+
+</html>
