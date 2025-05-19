@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --cor-primaria: rgb(235, 1,1);
+    --cor-secundaria: rgb(116, 214, 4);
+    --cor-neutra: rgb(240, 233, 233);
+    --cor-destaque:rgb(159, 36, 216);
+    --cor-texto: rgb(26, 30, 228);
+}

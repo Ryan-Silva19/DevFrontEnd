@@ -1,0 +1,13 @@
+@import url(./global.css);
+p{
+    font-size: 30px;
+}
+.i1{
+    color: var(--cor-primaria);
+}
+.i2{
+    color: var(--cor-primaria);
+}
+.i3{
+    color: var(--cor-primaria);
+}

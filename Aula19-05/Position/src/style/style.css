@@ -1,0 +1,47 @@
+body{
+    /* background-image: url();  colocamos a link do url para colocar uma imagem para prencher o fundo da imagem*/
+    /* background-repeat: no-repeat;  Usado para não repetir a imagem*/
+    /* background-size: cover; ficar do tamanho da tela independente do zoom*/
+}
+/* .static{
+    background-color: purple;
+    width: 200px;
+    height: 100px;
+    margin: 10px;
+    position: static; /* É o posicionamento padrão do elemento e não deixa mover o elemento
+} */
+/* .relative{
+    background-color: red;
+    width: 200px;
+    height: 100px;
+    left: 50px;
+    top: 30px;
+    position: relative;
+} */
+ /* .absolute{
+    background-color: blue;
+    width: 200px;
+    height: 100px;
+    left: 100px;
+    position: absolute;
+ } */
+  /* .container{
+    background-color: red;
+    width: 400px;
+    height: 300px;
+    position: relative;
+  }
+  .absolute{
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    bottom: 0; 
+  } */
+   /* .menu{
+    background-color: red;
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    left: 0;
+   } */

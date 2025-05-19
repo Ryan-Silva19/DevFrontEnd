@@ -1,0 +1,14 @@
+.box{
+    background-image: url(./cor.png);
+    width: 200px;
+    height: 200px;
+    position: absolute;
+}
+/* p{
+    background-color: purple;
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    left: 60px;
+    top: 50px; 
+} */
