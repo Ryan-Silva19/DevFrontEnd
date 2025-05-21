@@ -1,0 +1,84 @@
+/* reset do css */
+@import url(./global.css);
+*{
+    margin: var(--margin);
+    padding: var(--padding);
+    box-sizing: var(--box-sizing);
+    text-decoration: var(--text-decoration);
+    border: var(--border);
+    background: var(--background);
+}
+header{
+    /* configurando a largura e a altura do header */
+    width: 100%;
+    height: 72px;
+    /* alinhando os elementos */
+    display: flex;
+    /* alinhando o logo na esquerda e os botões na direita */
+    justify-content: space-between;
+    /* dando um espaçamento na esquerda e direita de 64px 
+    em cima e embaixo de 16px*/
+    padding: 16px 64px  ;
+    font-family: "Roboto", sans-serif;
+}
+.headerContent{
+    /* alinhando os elementos em linha e no centro */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* dando um espaçamento entre as âncoras e os botões */
+    gap: 32px;
+    /* colocando o tamanho da fonte */
+    font-size: 16px;
+}
+nav{
+    /* alinhando os elementos em linha e no centro */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* dando um espaçamento de 32px entre os links */
+    gap: 32px;
+}
+nav > a, p{
+    font-size: 16px;
+    color: black;
+}
+nav > button{
+    /* alinhando o botão link4 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* tamanho da fonte do botão */
+    font-size: 16px;
+    /* tipo da fonte do botão */
+    font-family: "Roboto", sans-serif;
+}
+.buttonWrapper{
+    /* alinhando os elementos na linha e no centro */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* espaçamento entre os botões */
+    gap: 16px;
+    /* colocando o tamanho da fonte */
+    font-size: 16px;
+}
+.buttonWrapper > button{
+    /* botão não se faz com tamanho fixo, so jogar um padding que fica responsivo */
+    padding: 8px 20px;
+    /* tamanho da fonte do botão */
+    font-size: 16px;
+    /* tipo da fonte do botão */
+    font-family: "Roboto", sans-serif;
+    /* adicionando a borda do botão */
+    border: 1px solid black;
+
+}
+.black{
+    background-color: black;
+    color: white;
+}
+.white{
+    background-color: white;
+    color: black;
+}
