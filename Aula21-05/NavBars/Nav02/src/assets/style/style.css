@@ -1,0 +1,56 @@
+@import url(./global.css);
+*{
+    margin: var(--margin);
+    padding: var(--padding);
+    box-sizing: var(--box-sizing);
+    text-decoration: var(--text-decoration);
+    border: var(--border);
+    background: var(--background);
+}
+body{
+    margin: 24px;
+}
+header{
+    background-color: white;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 100%;
+    height: 72px;
+    padding: 0px 64px;
+    
+    font-family: "Roboto";
+}
+#logotype img{
+    width: 36px;height: 84px;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+nav > button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    font-family: "Roboto";
+}
+header > nav> button > img{
+    width: 24px;
+    height: 24px;
+}
+nav > a,p {
+    font-size: 16px;
+    color: black;
+}
+#button{
+    background-color: black;
+    color: white;
+    padding: 8px 20px;
+    font-size: 16px;
+    font-family: "Roboto";
+}

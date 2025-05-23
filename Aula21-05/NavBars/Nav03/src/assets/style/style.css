@@ -1,0 +1,57 @@
+@import url(./global.css);
+*{
+    margin: var(--margin);
+    border: var(--border);
+    padding: var(--padding);
+    box-sizing: var(--box-sizing);
+    background: var(--background);
+    text-decoration: var(--text-decoration);
+}
+header{
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 72px;
+    /* width: 100%; */
+
+    margin: 24px;
+    padding: 16px 64px;
+    
+}
+header > nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 32px;
+
+}
+header > img{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+header > nav > a, p{
+    color: black;
+    font-size: 16px;
+    font-family: "Roboto";
+}
+nav > button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+}
+nav > button > img{
+    width: 24px;
+    height: 24px;
+}
+#button{
+    background-color: black;
+    color: white;
+    padding: 8px 20px;
+    font-size: 16px;
+    font-family: "Roboto";
+}

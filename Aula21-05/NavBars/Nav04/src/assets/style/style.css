@@ -1,0 +1,54 @@
+@import url(./global.css);
+/* font-family: "Roboto", sans-serif; */
+*{
+    margin: var(--margin);
+    border: var(--border);
+    padding: var(--padding);
+    box-sizing: var(--box-sizing);
+    background: var(--background);
+    text-decoration: var(--text-decoration);
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    width: 100%;
+    height: 72px;
+    margin: 12px 64px;
+}
+header >img{
+    width: 63px;
+    height: 27px;
+}
+.buttons{
+    display: flex;
+    padding: 4px 72px 4px 0;
+    gap: 24px;
+    margin-right: 64px;
+}
+#button{
+    padding: 8px 20px;
+    background-color: black;
+    color: white;
+}
+#x{
+    padding: 12px;
+}
+main{
+    position: absolute;
+}
+main> nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 219px 63px 0 64px;
+    /* padding: 12px 0; */
+}
+/* main > nav > a{
+
+} */
+nav > button{
+    display: flex;
+    align-items: center;
+}
