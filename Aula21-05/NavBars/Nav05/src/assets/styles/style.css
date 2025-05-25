@@ -1,0 +1,59 @@
+@import url(./global.css);
+/* font-family: "Roboto", sans-serif; */
+*{
+    margin: var(--margin);
+    border: var(--border);
+    padding: var(--padding);
+    box-sizing: var(--box-sizing);
+    background: var(--background);
+    text-decoration: var(--text-decoration);
+    color: black;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+}
+header{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    height: 72px;
+    margin: 24px;
+}
+header > img{
+    display: flex;
+    justify-content: start;
+    padding: 18px 24px 0 64px; 
+}
+header > nav{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 24px;
+    left: 172px;
+    gap: 32px;
+}
+header > nav > button{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    gap: 4px;
+}
+.buttonWrapper {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+button{
+    padding: 8px 20px;
+}
+.white{
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+}
+.black{
+    background-color: black;
+    border: 1px solid black;
+    color: white;
+}
