@@ -8,11 +8,11 @@
     text-decoration: var(--text-decoration);
 }
 header{
-    border: 1px solid black;
     display: flex;
     justify-content: space-between;
     align-items: center;
 
+    
     height: 72px;
     /* width: 100%; */
 
@@ -30,7 +30,7 @@ header > nav{
 }
 header > img{
     position: absolute;
-    left: 50%;
+    left: 49%;
     transform: translateX(-50%);
 }
 header > nav > a, p{
