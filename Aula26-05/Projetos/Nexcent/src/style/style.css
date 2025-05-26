@@ -4,7 +4,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background-color: var(--color-neutal-silver);
+    background-color: var(--color-neutral-silver);
     padding: 22px 0;
 }
 .navHeader > ul{
@@ -24,7 +24,7 @@ header{
     gap: 14px;
 }
 .buttonLogin{
-    background-color: var(--color-neutal-silver);
+    background-color: var(--color-neutral-silver);
     padding: 10px 20px; 
 }
 .buttonLogin > a{
@@ -38,8 +38,61 @@ header{
     padding: 10px 20px;
 }
 .buttonSignUp > a{
-    color: var(--color-neutal-white);
+    color: var(--color-neutral-white);
     text-decoration: none;
     font-weight: 600;
     font-size: 14px;
 } 
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 104px;
+    padding: 96px 0;
+    background-color: var(--color-neutral-silver);
+}
+.contentLessons{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 657px;
+}
+.contentLessons > h1{
+    font-size: 64px;
+    color: var(--color-neutral-grey);
+}
+.contentLessons > h1 > span{
+    color: var(--color-primary);
+}
+.contentLessons > p{
+    color: var(--color-neutral-grey);
+}
+.contentLessons > button{
+    width: 128px;
+}
+
+ .ourClients{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 40px 0px;
+    gap: 16px;
+ }
+.ourClientsContent{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.ourClientsContent > h2{
+    font-size: 36px;
+    color: var(--color-neutral-dgray);
+}
+.ourClientsContent > p{
+    color: var(--color-neutral-grey);
+}
+.ourClientsLogo{
+    display: flex;
+    justify-content: center;
+    gap: 136px;
+    padding: 25px 0;
+}
