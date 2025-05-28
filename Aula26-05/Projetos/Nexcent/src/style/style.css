@@ -1,5 +1,5 @@
 @import url(./global.css);
-
+/* ----------------- Header ----------------- */
 header{
     display: flex;
     align-items: center;
@@ -43,6 +43,7 @@ header{
     font-weight: 600;
     font-size: 14px;
 } 
+/* ----------------- Main ----------------- */
 main{
     display: flex;
     justify-content: center;
@@ -70,7 +71,7 @@ main{
 .contentLessons > button{
     width: 128px;
 }
-
+/* ----------- Section Our Clients ----------- */
  .ourClients{
     display: flex;
     flex-direction: column;
@@ -96,3 +97,91 @@ main{
     gap: 136px;
     padding: 25px 0;
 }
+/* ------------ Section Manage your entire ------------ */
+.manageSystem{
+    width: 100%;
+    height: 416px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+}
+.manageSystem > h2{
+    font-size: 36px;
+    font-weight: 600px;
+    width: 542px;
+    text-align: center;
+    color: var(--color-neutral-dgray);
+}
+.manageSystem > p{
+    margin-top: 8px;
+    font-size: 16px;
+    color: var(--color-neutral-grey);
+}
+.cardsWrapper{
+    width: 100%;
+    height: 280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 127px;
+    margin-top: 16px;
+}
+.cardsWrapper > .card{
+    width: 300px;
+    height: 260px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 32px;
+    border-radius: 8px;
+    background-color: var(--color-neutral-white);
+    box-shadow:  0 2px 4px 0px rgba(171, 190, 209, 0.20);
+}
+.card > h3 {
+    font-size: 28px;
+    font-weight: 700px;
+    color: var(--color-neutral-dgray);
+    text-align: center;
+    margin-top: 16px;
+}
+.card > p {
+    font-size: 14px;
+    color: var(--color-neutral-grey);
+    text-align: center;
+    margin-top: 8px;
+}
+/* ----------------- Section pixelgrade ----------------- */
+.pixelGrade {
+    width: 100%;
+    height: 433px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.pixelGrade > aside {
+    width: 661px;
+    height: 268px;
+}
+.pixelGrade > aside >h2 {
+    font-size: 36px;
+    font-weight: 600px;
+    width: 601px;
+    margin-right: 60px;
+    color: var(--color-neutral-dgray);
+}
+aside > p {
+    font-size: 14px;
+    color: var(--color-neutral-grey);
+    margin-top: 16px;
+}
+aside > button {
+    margin-top: 32px;
+    padding: 14px 32px;
+    font-size: 16px;
+    background-color: var(--color-primary);
+    color: var(--color-neutral-white); 
+}
+/* ----------------- Section Helping a local----------------- */
