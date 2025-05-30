@@ -185,3 +185,47 @@ aside > button {
     color: var(--color-neutral-white); 
 }
 /* ----------------- Section Helping a local----------------- */
+.business {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-neutral-silver);
+    margin-top: 48px;
+    gap: 72px;
+    padding: 64px 0;
+}
+.business > aside{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 8px;
+    width: 540px;
+}
+.business > aside > h2 {
+    font-size: 36px;
+    font-weight: 600px;
+    color: var(--color-neutral-dgray);
+    width: 398px;
+}
+.business > aside > h2 > span {
+    color: var(--color-primary);
+}
+.business > aside > p {
+    color: #18191F;
+    font-size: 16px;
+}
+.business .benefits{
+    width: 540px;
+    display: grid;
+    grid-template-columns: 255px 255px;
+    column-gap: 30px;
+    row-gap: 40px;
+}
+.business > .benefits > .benefit {
+    display: flex;       
+    justify-content: start;
+    align-items: center;
+    gap: 16px;
+}
+/* ------------ Section DesignYourSite ------------ */
