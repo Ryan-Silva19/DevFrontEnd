@@ -1,50 +1,60 @@
 @import url(./global.css);
+
 /* ----------------- Header ----------------- */
-header{
+header {
     display: flex;
     align-items: center;
     justify-content: space-around;
     background-color: var(--color-neutral-silver);
     padding: 22px 0;
 }
-.navHeader > ul{
+
+.navHeader>ul {
     display: flex;
     list-style: none;
     gap: 50px;
 }
-.navHeader > ul > li > a{
+
+.navHeader>ul>li>a {
     text-decoration: 0;
     color: #18191F;
 }
-.active{
+
+.active {
     font-weight: 600;
 }
+
 .buttonHeader {
     display: flex;
     gap: 14px;
 }
-.buttonLogin{
+
+.buttonLogin {
     background-color: var(--color-neutral-silver);
-    padding: 10px 20px; 
+    padding: 10px 20px;
 }
-.buttonLogin > a{
+
+.buttonLogin>a {
     color: var(--color-primary);
     text-decoration: none;
     font-size: 14px;
 }
-.buttonSignUp{
+
+.buttonSignUp {
     background-color: var(--color-primary);
     border-radius: 6px;
     padding: 10px 20px;
 }
-.buttonSignUp > a{
+
+.buttonSignUp>a {
     color: var(--color-neutral-white);
     text-decoration: none;
     font-weight: 600;
     font-size: 14px;
-} 
+}
+
 /* ----------------- Main ----------------- */
-main{
+main {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -52,53 +62,64 @@ main{
     padding: 96px 0;
     background-color: var(--color-neutral-silver);
 }
-.contentLessons{
+
+.contentLessons {
     display: flex;
     flex-direction: column;
     gap: 16px;
     width: 657px;
 }
-.contentLessons > h1{
+
+.contentLessons>h1 {
     font-size: 64px;
     color: var(--color-neutral-grey);
 }
-.contentLessons > h1 > span{
+
+.contentLessons>h1>span {
     color: var(--color-primary);
 }
-.contentLessons > p{
+
+.contentLessons>p {
     color: var(--color-neutral-grey);
 }
-.contentLessons > button{
+
+.contentLessons>button {
     width: 128px;
 }
+
 /* ----------- Section Our Clients ----------- */
- .ourClients{
+.ourClients {
     display: flex;
     flex-direction: column;
     text-align: center;
     margin: 40px 0px;
     gap: 16px;
- }
-.ourClientsContent{
+}
+
+.ourClientsContent {
     display: flex;
     flex-direction: column;
     gap: 8px;
 }
-.ourClientsContent > h2{
+
+.ourClientsContent>h2 {
     font-size: 36px;
     color: var(--color-neutral-dgray);
 }
-.ourClientsContent > p{
+
+.ourClientsContent>p {
     color: var(--color-neutral-grey);
 }
-.ourClientsLogo{
+
+.ourClientsLogo {
     display: flex;
     justify-content: center;
     gap: 136px;
     padding: 25px 0;
 }
+
 /* ------------ Section Manage your entire ------------ */
-.manageSystem{
+.manageSystem {
     width: 100%;
     height: 416px;
     display: flex;
@@ -106,19 +127,22 @@ main{
     align-items: center;
     margin-top: 40px;
 }
-.manageSystem > h2{
+
+.manageSystem>h2 {
     font-size: 36px;
     font-weight: 600px;
     width: 542px;
     text-align: center;
     color: var(--color-neutral-dgray);
 }
-.manageSystem > p{
+
+.manageSystem>p {
     margin-top: 8px;
     font-size: 16px;
     color: var(--color-neutral-grey);
 }
-.cardsWrapper{
+
+.cardsWrapper {
     width: 100%;
     height: 280px;
     display: flex;
@@ -127,7 +151,8 @@ main{
     gap: 127px;
     margin-top: 16px;
 }
-.cardsWrapper > .card{
+
+.cardsWrapper>.card {
     width: 300px;
     height: 260px;
     display: flex;
@@ -137,21 +162,24 @@ main{
     padding: 24px 32px;
     border-radius: 8px;
     background-color: var(--color-neutral-white);
-    box-shadow:  0 2px 4px 0px rgba(171, 190, 209, 0.20);
+    box-shadow: 0 2px 4px 0px rgba(171, 190, 209, 0.20);
 }
-.card > h3 {
+
+.card>h3 {
     font-size: 28px;
     font-weight: 700px;
     color: var(--color-neutral-dgray);
     text-align: center;
     margin-top: 16px;
 }
-.card > p {
+
+.card>p {
     font-size: 14px;
     color: var(--color-neutral-grey);
     text-align: center;
     margin-top: 8px;
 }
+
 /* ----------------- Section pixelgrade ----------------- */
 .pixelGrade {
     width: 100%;
@@ -161,29 +189,34 @@ main{
     align-items: center;
     gap: 50px;
 }
-.pixelGrade > aside {
+
+.pixelGrade>aside {
     width: 661px;
     height: 268px;
 }
-.pixelGrade > aside >h2 {
+
+.pixelGrade>aside>h2 {
     font-size: 36px;
     font-weight: 600px;
     width: 601px;
     margin-right: 60px;
     color: var(--color-neutral-dgray);
 }
-aside > p {
+
+aside>p {
     font-size: 14px;
     color: var(--color-neutral-grey);
     margin-top: 16px;
 }
-aside > button {
+
+aside>button {
     margin-top: 32px;
     padding: 14px 32px;
     font-size: 16px;
     background-color: var(--color-primary);
-    color: var(--color-neutral-white); 
+    color: var(--color-neutral-white);
 }
+
 /* ----------------- Section Helping a local----------------- */
 .business {
     display: flex;
@@ -194,7 +227,8 @@ aside > button {
     gap: 72px;
     padding: 64px 0;
 }
-.business > aside{
+
+.business>aside {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -202,30 +236,223 @@ aside > button {
     gap: 8px;
     width: 540px;
 }
-.business > aside > h2 {
+
+.business>aside>h2 {
     font-size: 36px;
     font-weight: 600px;
     color: var(--color-neutral-dgray);
     width: 398px;
 }
-.business > aside > h2 > span {
+
+.business>aside>h2>span {
     color: var(--color-primary);
 }
-.business > aside > p {
+
+.business>aside>p {
     color: #18191F;
     font-size: 16px;
 }
-.business .benefits{
+
+.business .benefits {
     width: 540px;
     display: grid;
     grid-template-columns: 255px 255px;
     column-gap: 30px;
     row-gap: 40px;
 }
-.business > .benefits > .benefit {
-    display: flex;       
+
+.business>.benefits>.benefit {
+    display: flex;
     justify-content: start;
     align-items: center;
     gap: 16px;
 }
+
 /* ------------ Section DesignYourSite ------------ */
+.howToDesign {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 443px;
+    margin-top: 48px;
+    gap: 49.47px;
+}
+
+.howToDesign>aside {
+    display: flex;
+    flex-direction: column;
+    width: 661px;
+    gap: 16px;
+}
+
+.howToDesign>aside>h2 {
+    width: 601px;
+    font-size: 36px;
+    font-weight: 600px;
+    color: var(--color-neutral-dgray);
+}
+
+.howToDesign>aside>p {
+    width: 601px;
+    font-size: 14px;
+    color: var(--color-neutral-grey);
+}
+
+.howToDesign>aside>button {
+    width: 151px;
+    margin-top: 16px;
+    padding: 14px 32px;
+    color: var(--color-neutral-white);
+}
+
+/* -------------Section TimSmith ------------- */
+.timSmith {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-neutral-silver);
+    height: 390px;
+    padding: 32px 0px;
+    gap: 78px;
+    margin-top: 48px;
+}
+
+.timSmith>.costumerContent {
+    width: 748px;
+    height: 324px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.timSmith>.costumerContent>p:nth-child(1) {
+    color: var(--color-neutral-grey);
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.costumerInformation {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.timSmith>.costumerContent>.costumerInformation>p:nth-child(1) {
+    color: var(--color-primary);
+    font-size: 20px;
+    font-weight: 600px;
+}
+
+.timSmith>.costumerContent>.costumerInformation>p:nth-child(2) {
+    color: var(--color-neutral-lgrey);
+    font-size: 16px;
+}
+
+.costumerContainer {
+    display: flex;
+    gap: 32px;
+    align-items: center;
+}
+
+.costumerContainer>.customersItens {
+    display: flex;
+    gap: 41px;
+}
+
+.costumerContainer>.customerNavigation>button {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: var(--color-primary);
+    background-color: transparent;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+/* ------------ Caring Marketing ------------ */
+.caringMarketing {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 48px 0 94.6px 0;
+    text-align: center;
+}
+
+.caringMarketingText {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+.caringMarketingText>p {
+    color: var(--color-neutral-grey);
+    width: 628px;
+}
+
+.caringMarketingConteiner {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.caringCards {
+    width: 368px;
+    position: relative;
+}
+
+.caringCardsContent {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 16px;
+    background-color: var(--color-neutral-silver);
+    border-radius: 8px;
+    box-shadow: 0px 8px 16px rgba(171, 190, 209, 0.40);
+    width: 317px;
+    position: absolute;
+    top: 190px;
+    left: 25.5px;
+}
+.caringCardsContent > p {
+    font-size: 20px;
+    color: var(--color-neutral-grey);
+    font-weight: 600;
+}
+.caringCardsContent > button {
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    gap: 8px;
+    color: var(--color-primary);
+    font-weight: 600;
+    font-size: 20px;
+    cursor: pointer;
+}
+/*  ----------- Antes do footer ----------- */
+.antesDoFooter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    background-color: var(--color-neutral-silver);
+}
+.antesDoFooter > h2 {
+    font-size: 64px;
+    width: 887px;
+    text-align: center;
+    color: var(--neutral-black);
+    font-weight: 600;
+    padding: 32px;
+}
+.antesDoFooter > button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: var(--color-primary);
+    width: 178px;
+}
