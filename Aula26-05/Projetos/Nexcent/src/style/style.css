@@ -273,7 +273,6 @@ aside>button {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 443px;
     margin-top: 48px;
     gap: 49.47px;
 }
@@ -311,7 +310,6 @@ aside>button {
     justify-content: center;
     align-items: center;
     background-color: var(--color-neutral-silver);
-    height: 390px;
     padding: 32px 0px;
     gap: 78px;
     margin-top: 48px;
@@ -319,10 +317,9 @@ aside>button {
 
 .timSmith>.costumerContent {
     width: 748px;
-    height: 324px;
     display: flex;
     flex-direction: column;
-    gap: 32px;
+    gap: 16px;
 }
 
 .timSmith>.costumerContent>p:nth-child(1) {
@@ -350,8 +347,9 @@ aside>button {
 
 .costumerContainer {
     display: flex;
-    gap: 32px;
     align-items: center;
+    gap: 32px;
+    padding-top: 16px;
 }
 
 .costumerContainer>.customersItens {
@@ -414,12 +412,14 @@ aside>button {
     top: 190px;
     left: 25.5px;
 }
-.caringCardsContent > p {
+
+.caringCardsContent>p {
     font-size: 20px;
     color: var(--color-neutral-grey);
     font-weight: 600;
 }
-.caringCardsContent > button {
+
+.caringCardsContent>button {
     background-color: transparent;
     display: flex;
     justify-content: center;
@@ -431,6 +431,7 @@ aside>button {
     font-size: 20px;
     cursor: pointer;
 }
+
 /*  ----------- Antes do footer ----------- */
 .antesDoFooter {
     display: flex;
@@ -440,19 +441,129 @@ aside>button {
     height: 300px;
     background-color: var(--color-neutral-silver);
 }
-.antesDoFooter > h2 {
+
+.antesDoFooter>h2 {
     font-size: 64px;
     width: 887px;
     text-align: center;
     color: var(--neutral-black);
     font-weight: 600;
-    padding: 32px;
+    padding: 16px;
 }
-.antesDoFooter > button {
+
+.antesDoFooter>button {
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center;
     background-color: var(--color-primary);
-    width: 178px;
+    padding: 14px 32px;
+    gap: 8px;
+    color: var(--color-neutral-white);
+}
+
+/* ----------- Footer ----------- */
+footer {
+    background-color: #263238;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 125px;
+    height: 400px;
+}
+
+footer>.socialMedias {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    gap: 40px;
+    height: 190px;
+    width: 350px;
+}
+
+footer>.socialMedias>.text {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    color: var(--color-neutral-silver);
+    font-weight: 400;
+    font-size: 14px;
+}
+
+footer>.socialMedias>.footerNav {
+    display: flex;
+    gap: 16px;
+}
+
+footer>.footerContent {
+    display: grid;
+    grid-template-columns: 160px 160px 255px;
+    column-gap: 30px;
+}
+
+footer>.footerContent>.information {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+footer>.footerContent>.information>h2 {
+    color: var(--color-neutral-white);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+footer>.footerContent>.information>.navCompany {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+footer>.footerContent>.information>.navCompany>a {
+    text-decoration: 0;
+    color: var(--color-neutral-silver);
+    font-size: 14px;
+}
+
+/* //////////////////////////////////// */
+footer>.footerContent>.stayUp {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 24px;
+}
+
+footer>.footerContent>.stayUp>h2 {
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--color-neutral-white);
+}
+
+footer>.footerContent>.stayUp>.send {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 40px;
+    background-color: #515B60;
+    border-radius: 8px;
+    width: 100%;
+    cursor: pointer;
+}
+
+footer>.footerContent>.stayUp>.send>input {
+    background-color: transparent;
+    color: var(--color-neutral-white);
+}
+
+footer>.footerContent>.stayUp>.send>input::placeholder {
+    color: #D9DBE1;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+footer>.footerContent>.stayUp>.send>input:focus {
+    outline: 0;
+}
+footer>.footerContent>.stayUp>.send > button {
+    background-color: transparent;
 }
