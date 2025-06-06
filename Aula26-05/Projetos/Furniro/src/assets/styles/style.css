@@ -1,0 +1,53 @@
+@import url(./global.css);
+
+/* ----------- Header ----------- */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    background-color: #FFFFFF;
+    padding: 29px 100px 30px 54px;
+}
+
+header>nav {
+    display: flex;
+    gap: 74px;
+}
+
+header>.iconsWrapper {
+    display: flex;
+    gap: 45px;
+}
+
+/* ----------- Main ----------- */
+main {
+    background-image: url(../images/imagemDeUmaSalaDeEstar.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 813px;
+}
+
+main>.discover {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding: 62px 43px 37px 39px;
+    background-color: #FFF3E3;
+    width: 561px;
+    gap: 10px;
+    border-radius: 10px;
+    position: absolute;
+    top: 300px;
+    right: 200px;
+}
+main>.discover > button {
+    margin-top: 25px;
+    padding: 25px 40px;
+    border-radius: 10px;
+    background-color: var(--color-primary);
+    color: #FFFFFF;
+    font-size: 16px;
+}
