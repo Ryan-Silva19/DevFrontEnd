@@ -6,7 +6,12 @@
     text-decoration: 0;
     color: 0;
     background-color: 0;
+    font-family: "Poppins", sans-serif;
 }
 :root {
     --color-primary:#B88E2F;
+    --color-white: #FFFFFF;
+    --color-black: #000000;
+    --color-neutralBlack: #333333;
+    --color-neutralBege: #FFF3E3;
 }
