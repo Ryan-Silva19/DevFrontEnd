@@ -14,6 +14,11 @@ header>nav {
     display: flex;
     gap: 74px;
 }
+header>nav> a {
+    font-size: 16px;
+    color: var(--color-black);
+
+}
 
 header>.iconsWrapper {
     display: flex;
@@ -34,20 +39,36 @@ main>.discover {
     flex-direction: column;
     justify-content: center;
     align-items: start;
-    padding: 62px 43px 37px 39px;
+    padding: 50px 30px;
     background-color: #FFF3E3;
     width: 561px;
     gap: 10px;
-    border-radius: 10px;
+    border-radius: 15px;
     position: absolute;
     top: 300px;
     right: 200px;
 }
+main > .discover > p:nth-child(1){
+    font-size: 16px;
+    color: var(--color-neutralBlack);
+    font-weight: 600;
+}
+main > .discover > h1 {
+    font-size: 52px;
+    color: var(--color-primary);
+    width: 400px;
+    font-weight: 700;
+}
+main > .discover > p:nth-child(3){
+    font-size: 18px;
+    color: var(--color-neutralBlack);
+}
 main>.discover > button {
     margin-top: 25px;
     padding: 25px 40px;
-    border-radius: 10px;
+    border-radius: 15px;
     background-color: var(--color-primary);
     color: #FFFFFF;
     font-size: 16px;
 }
+/* --------- Section Browse --------- */
