@@ -110,3 +110,60 @@ main>.discover > button {
     font-size: 24px;
     font-weight: 600;
 }
+/* ---------- Section Our Products ---------- */
+.ourProducts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 56px;
+}
+.ourProducts > .productsWrapper {
+    display: flex;
+    gap: 32px;
+    margin-top: 32px;
+}
+.ourProducts > .productsWrapper > .products {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    gap: 8px;
+    background-color: var(--color-lightBG);
+}
+.products img {
+    border-radius: 5px;
+}
+.productContent {
+    margin: 15px;
+}
+.productContent > h3 {
+    color: var(--color-neutralBlack);
+    font-size: 24px;
+}
+.productContent > p:nth-child(2) {
+    font-size: 16px;
+    color: var(--color-gray3);
+}
+.price {
+    display: flex;
+    gap: 16px;
+}
+.price > p:nth-child(1){
+    font-size: 20px;
+    color: var(--color-gray1);
+    font-weight: 600;
+}
+.price > p:nth-child(2){
+    color: var(--color-gray4);
+    font-size: 16px;
+    text-decoration: line-through;
+}
+.ourProducts > button {
+    margin-top: 32px;
+    padding: 12px 50px;
+    color: var(--color-primary);
+    background-color: var(--color-white);
+    border: 1px solid var(--color-primary);
+    border-radius: 5px;
+}
