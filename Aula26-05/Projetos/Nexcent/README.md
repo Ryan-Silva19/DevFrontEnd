@@ -105,7 +105,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 <!-- MODELO DE AUTOR-->
 ## 🦸 Autor
 
-<a href="https://br.linkedin.com/in/matheus-maia-alvarez-">
+<a href="https://www.linkedin.com/in/ryan-silva-2077ab2ab/">
 Ryan Silva</a>
  <br />
  
