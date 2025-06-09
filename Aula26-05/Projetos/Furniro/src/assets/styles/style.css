@@ -72,3 +72,41 @@ main>.discover > button {
     font-size: 16px;
 }
 /* --------- Section Browse --------- */
+.browse {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 56px;
+}
+.browse > h2 {
+    color: var(--color-neutralBlack);
+    font-size: 32px;
+    font-weight: 700;
+}
+.browse > p {
+    color: #666666;
+    font-size: 20px;
+}
+.browse > .articleWrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.browse > .articleWrapper > article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 62px;
+}
+.browse > .articleWrapper > article > img {
+    border-radius: 10px;
+}
+.browse > .articleWrapper > article > p {
+    margin-top: 30px;
+    color: var(--color-neutralBlack);
+    font-size: 24px;
+    font-weight: 600;
+}
