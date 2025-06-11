@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First child</title>
+    <style>
+        .card {
+            width: 150px;
+            height: 200px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: start; 
+            gap: 10px;
+        }
+        main{
+            display: flex;
+            gap: 30px;
+        }
+        /* seleciona os ímpares */
+        main .card:nth-child(odd) {
+            background-color: aqua;
+        }
+        /* seleciona os pares */
+        main .card:nth-child(even){
+            background-color: red;
+        }
+        /* seleciona o último filho */
+        main .card:last-child{
+            background-color: purple;
+        }
+        </style>
+    <link rel="stylesheet" href="../style/global.css">
+</head>
+
+<body>
+    <main>
+        <div class="card">
+            <h3>title</h3>
+            <p>description</p>
+            <a href="">learn more</a>
+        </div>
+        <div class="card">
+            <h3>title</h3>
+            <p>description</p>
+            <a href="">learn more</a>
+        </div>
+        <div class="card">
+            <h3>title</h3>
+            <p>description</p>
+            <a href="">learn more</a>
+        </div>
+        <div class="card">
+            <h3>title</h3>
+            <p>description</p>
+            <a href="">learn more</a>
+        </div>
+    </main>
+</body>
+
+</html>
