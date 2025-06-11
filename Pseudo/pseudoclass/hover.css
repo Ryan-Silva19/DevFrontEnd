@@ -1,0 +1,9 @@
+@import url(../style/global.css);
+a{
+    color: aqua;
+    text-decoration: underline;
+}
+a:hover{
+    color: red;
+    text-decoration: 0;
+}
