@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Efeito disable</title>
+    <style>
+        input[type="email"] {
+            background-color: yellow;
+        }
+
+        input[type="email"]:disabled {
+            background-color: red;
+        }
+
+        /* input[type="checkbox"]:disabled {
+            appearance: none;
+            width: 20px;
+            height: 20px;
+            background-color: yellow;
+            border: 2px solid black;
+            cursor: not-allowed;
+        } */
+        
+        input[type="checkbox"]:checked {
+            transform: scale(2);
+        }
+    </style>
+    <link rel="stylesheet" href="../style/global.css">
+</head>
+
+<body>
+    <input type="email" name="" id="">
+    <!-- Atibuto desabilitado -->
+    <input type="email" name="" id="" disabled>
+    <input type="checkbox" name="" id="" disabled>
+    <!-- Atributo habilitado -->
+    <input type="checkbox" name="" id="" checked>
+</body>
+
+</html>
