@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scale</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100vw;
+            height: 100vh;
+        }
+
+        h1 {
+            display: none;
+        }
+
+        .circle {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 600px;
+            height: 600px;
+            border-radius: 50%;
+            background: radial-gradient(circle at center, #00f2fe, #4facfe, #614385);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+        }
+
+        .circle:hover {
+            transform: scale(1.5);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="circle">
+        <h1>I'm seeing u</h1>
+    </div>
+</body>
+
+</html>
