@@ -1,0 +1,14 @@
+@import url(./atividade3.css);
+body {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 2fr;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+.box {
+    background-color: #f08482;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
