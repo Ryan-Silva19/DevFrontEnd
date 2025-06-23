@@ -1,0 +1,13 @@
+@import url(./global.css);
+body{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 10px;
+    padding: 10px;
+}
+.menu {
+    background-color: #8DED94;
+}
+.conteudo {
+    background-color: #8DED94;
+}
