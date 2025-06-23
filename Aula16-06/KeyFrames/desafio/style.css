@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@keyframes corre {
+    0% {
+        left: 0;
+    }
+
+    19% {
+        bottom: 0;
+    }
+
+    20% {
+        bottom: 16rem;
+    }
+
+    40% {
+        bottom: 0;
+    }
+
+    48% {
+        left: 100rem;
+    }
+
+    49% {
+        bottom: 0;
+        transform: rotateY(0deg);
+    }
+    
+    50% {
+        transform: rotateY(180deg);
+    }
+    60% {
+        bottom: 16rem;
+    }
+    70% {
+        bottom: 0;
+    }
+
+    99% {
+        transform: rotateY(180deg);
+        bottom: 0;
+    }
+
+    100% {
+        left: 0;
+    }
+}
+
+body {
+    background-color: rgb(17, 170, 216);
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100vw;
+    height: 100vh;
+    justify-content: end;
+    align-items: start;
+}
+
+.floor {
+    position: relative;
+    bottom: 0;
+    width: 100vw;
+}
+
+.grama {
+    background-color: green;
+    height: 2rem;
+}
+
+.barro {
+    background-color: brown;
+    height: 5rem;
+}
+
+.cano img {
+    width: 12rem;
+    position: absolute;
+    right: 30rem;
+    bottom: 6.9rem;
+}
+
+.corre img {
+    position: relative;
+    animation: corre 8s infinite;
+
+}
