@@ -4,4 +4,5 @@ let book = {
     author: "J.K Rowling",
     pages: 264
 };
-console.log("informações do livro '"+ book.title + "'\n" + "Autor(a): " + book.author + "\n" + "páginas do livro:", book.pages);
+// console.log("informações do livro '"+ book.title + "'\n" + "Autor(a): " + book.author + "\n" + "páginas do livro:", book.pages);
+console.log(`informações do livro '${book.title}'\nQuantidade de páginas: ${book.pages}\nAutor(a): ${book.author}`);
